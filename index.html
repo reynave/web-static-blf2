@@ -7,7 +7,9 @@
     <title>Startup Demo</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Inclusive+Sans:ital,wght@0,300..700;1,300..700&family=League+Spartan:wght@100..900&family=Luckiest+Guy&display=swap"
+        rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -20,7 +22,7 @@
 
     <header class="site-header">
         <div class="top-bar py-2 rounded shadow-sm">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row align-items-center gy-2 text-center text-lg-start">
                     <div class="col-lg-4">
                         <div
@@ -43,9 +45,12 @@
         </div>
         <nav class="main-nav">
             <div class="container d-flex flex-wrap align-items-center justify-content-between gap-3">
-                <a class="brand-logo" href="#">
-                    <img src="https://belfoods.com/wp-content/themes/wp/images/logo.png" alt="Belfoods logo">
-                </a>
+                <div class="brand-logo">
+                    <a href="#" class="nav-logo">
+                        <img width="100%" src="https://belfoods.com/wp-content/themes/wp/images/logo.png" alt="Belfoods logo">
+                    </a>
+                </div>
+
                 <ul class="nav main-menu gap-2 justify-content-center flex-grow-1">
                     <li class="nav-item"><a class="nav-link active" href="#home-banner">Beranda</a></li>
                     <li class="nav-item nav-item-has-children">
@@ -72,7 +77,7 @@
             <div class="row align-items-center g-4 g-xl-5">
 
                 <div class="banner-texture-vector   align-center text-center">
-                    <img src="./assets/img/texture-home-banner1.png" width="60%" >
+                    <img src="./assets/img/texture-home-banner1.png" width="60%">
                 </div>
                 <div class="banner-texture">
                     <span class="banner-sparkle"></span>
@@ -83,7 +88,7 @@
                 </div>
                 <div class="col-12">
                     <div class="text-center banner-title">
-                        <h1 class="display-4">Rasanya lebih nikmat dari daging no. 1</h1>
+                        <h1>Rasanya lebih nikmat dari daging no. 1</h1>
                     </div>
                     <div class="banner-illustration  ">
                         <img class="banner-object1" src="./assets/img/image006-1.png" width="100%"
@@ -163,15 +168,15 @@
         <div class="container">
 
             <div class="row">
-                <div class="col-12">
-                    <h1>INFO BUAH HATI</h1>
+                <div class="col-12 mb-4">
+                    <h2 class="league-spartan">Info Buah Hati</h2>
                 </div>
                 <div class="col-12">
                     <h1>
-                        INGIN TAHU
-                        CARA LEBIH
-                        DEKATDENGAN
-                        ANAK ANDA
+                        INGIN TAHU<br>
+                        CARA LEBIH<br>
+                        DEKAT DENGAN<br>
+                        ANAK ANDA<br>
                     </h1>
                 </div>
             </div>
@@ -187,7 +192,7 @@
             <div class="row g-4 align-items-center">
                 <div class="col-lg-8">
                     <div class="promo-card">
-                        <img src="assets/img/promo-banner-12000.png" alt="Makan Enak hanya Rp 12.000">
+                        <img src="assets/img/dummy1.jpg" alt="Makan Enak hanya Rp 12.000">
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -215,19 +220,19 @@
         </div>
     </section>
 
-    <section id="blog" class="py-5">
+    <section id="blog" class="py-5 blog-section">
         <div class="container">
             <h2 class="text-center fw-bold mb-2">Kreasi Kilat</h2>
-            <p class="text-center fs-4 text-uppercase fw-bold mb-5">From Our Kitchen To Yours</p>
+            <h1 class="text-center mb-5 ">From Our Kitchen To Yours</h1>
             <div class="row g-4">
                 <div class="col-md-4">
                     <div class="card h-100 shadow-sm border-0 rounded-4">
-                        <img src="https://belfoods.com/wp-content/uploads/2019/07/kreasi-bento-drummies-1.jpg"
+                        <img src="https://dummyimage.com/600x400/000/fff"
                             class="card-img-top rounded-top-4" alt="Bento Drummies Sushi Rice">
                         <div class="card-body">
-                            <p class="text-uppercase text-muted mb-1">Fun Recipes</p>
-                            <h5 class="card-title fw-bold">Bento Drummies Sushi Rice</h5>
-                            <a href="#" class="btn btn-outline-dark rounded-pill mt-3">View Recipe</a>
+                            <h5 class="mb-1">Fun Recipes</h5>
+                            <h1 class="card-title fw-bold py-3">Bento Drummies Sushi Rice</h1>
+                            <a href="#" class="btn btn-white rounded mt-3">Lihat Resep <i class="bi bi-caret-right-square-fill"></i></a>
                         </div>
                     </div>
                 </div>

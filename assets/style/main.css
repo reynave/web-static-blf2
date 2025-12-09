@@ -1,7 +1,32 @@
 /* Custom styles for the demo homepage */
 body {
-    font-family: "DM Sans", "Segoe UI", Arial, sans-serif;
+
     padding-top: 160px;
+}
+
+.luckiest-guy-regular {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.league-spartan {
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .home-banner {
@@ -11,6 +36,14 @@ body {
     padding: 5.5rem 0 6.5rem;
     margin-top: -160px;
     overflow: hidden;
+}
+
+.home-banner h1 {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5rem;
+    text-transform: uppercase;
 }
 
 .home-banner::before,
@@ -49,12 +82,13 @@ body {
     flex-direction: column;
     gap: 1.75rem;
     align-items: center;
-    z-index: 10;
+    z-index: -1;
 }
 
 .banner-sparkle {
     width: 64px;
     height: 64px;
+
     background: rgba(255, 255, 255, 0.4);
     transform: rotate(45deg);
     border-radius: 18px;
@@ -92,6 +126,7 @@ body {
     align-items: flex-end;
     gap: 1.5rem;
 }
+
 .banner-texture-vector {
     margin: 0 auto;
     z-index: -1;
@@ -174,26 +209,30 @@ body {
     position: relative;
     z-index: 2;
 }
-.home-slider{
+
+.home-slider {
     width: 90%;
-    margin: 0 auto; 
-    
+    margin: 0 auto;
+
 }
+
 .slider-header {
     text-align: center;
     margin-bottom: 2.5rem;
-    width: 100%;    background: var(--color-slider-highlight);
-        border-radius: 999px;
+    width: 100%;
+    background: var(--color-slider-highlight);
+    border-radius: 999px;
 }
 
 .slider-header .slider-badge {
-    display: inline-block; 
+    display: inline-block;
     color: var(--color-slider-text);
     padding: 1rem;
     border-radius: 999px;
     font-weight: 600;
-    
-} 
+
+}
+
 .slider-tabs {
     display: flex;
     flex-wrap: wrap;
@@ -305,15 +344,29 @@ body {
     border: 0;
 }
 
-.promo-showcase { 
+
+.info {
+    text-align: center;
+    margin: 10rem 0;
+}
+
+.info h1 {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6rem;
+    line-height: 100%;
+    color: #60010A;
+    margin: 30px 0;
+}
+
+.promo-showcase {
     background: var(--color-promo-bg);
     padding: 5.5rem 0;
 }
 
 .promo-card {
-    background: var(--color-promo-card-bg);
     border-radius: 36px;
-    padding: 1.5rem;
     box-shadow: 0 24px 45px rgba(0, 0, 0, 0.08);
 }
 
@@ -375,6 +428,41 @@ body {
     width: auto;
     display: block;
 }
+.blog-section h1{
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: normal;
+    font-style: normal;     
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    color: #333333;
+}
+.blog-section h5{
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: normal;
+    font-style: normal;     
+    letter-spacing: 1px;
+    color: #333333;
+}
+
+.blog-section .card{
+    background-color: #F8E6CB;
+}
+.btn-white{
+     font-family: 'Luckiest Guy', cursive;
+    background-color: #FFFFFF;
+    color: #333333; 
+    padding: 0.5rem 1.5rem;
+    border-radius: 12px;
+    font-weight: 100;
+    text-decoration: none;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+}
+.btn-white:hover{
+    background-color: #E0E0E0;
+    color: #333333; 
+    text-decoration: none;
+}
+
 
 .feature-icon {
     width: 4rem;
@@ -486,15 +574,20 @@ body {
 }
 
 @keyframes banner-wiggle {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: translateY(0) rotate(0deg);
     }
+
     25% {
         transform: translateY(-4px) rotate(-2deg);
     }
+
     50% {
         transform: translateY(0) rotate(1.5deg);
     }
+
     75% {
         transform: translateY(5px) rotate(-1deg);
     }

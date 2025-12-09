@@ -7,22 +7,29 @@
     z-index: 1040;
     background-color: transparent;
     padding: 0 2rem;
-    padding-top: 0.3rem; 
+    padding-top: 0.3rem;
     box-sizing: border-box;
 }
-.site-header a{
+
+.site-header a {
     text-decoration: none !important;
+
+  
 }
 
 .brand-logo {
     display: flex;
+    position: relative;
     align-items: center;
 }
-
-.brand-logo img {
-    height: 48px;
-    width: auto;
+.brand-logo .nav-logo{
+    position: absolute;
+      top: -22px;
+    left: -26px;
+    width: 150px;
 }
+
+ 
 
 .top-bar {
     background-color: var(--color-brown-dark);
@@ -34,6 +41,12 @@
     display: inline-flex;
     align-items: center;
     gap: 0.4rem;
+
+      font-family: "Inclusive Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.9rem;
 }
 
 .top-bar .contact-info i {
@@ -42,7 +55,12 @@
 
 .top-bar-message {
     text-align: center;
-    font-weight: 500;
+
+   font-family: "Inclusive Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.9rem;
 }
 
 .top-bar-buttons {
@@ -52,7 +70,7 @@
 
 .top-bar-btn {
     border-radius: 5px;
-   
+
     font-size: 0.75rem;
     font-weight: 700;
     text-transform: uppercase;
@@ -72,7 +90,7 @@
 
 .main-nav {
     background-color: transparent;
-    padding: 0.75rem 0;
+    padding: 0.3rem 0;
 }
 
 .main-menu {
@@ -92,7 +110,7 @@
     position: relative;
 }
 
-.nav-item-has-children > .nav-link {
+.nav-item-has-children>.nav-link {
     display: inline-flex;
     align-items: center;
     gap: 0.35rem;
@@ -132,7 +150,9 @@
 .nav-item-has-children:focus-within .sub-menu {
     display: block;
 }
-
+.main-menu .nav-link {
+    background-color: rgb(255, 255, 255, 0.4);
+}
 .main-menu .nav-link:hover {
     background-color: var(--color-brown-soft);
     color: var(--color-brown);
