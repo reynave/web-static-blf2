@@ -607,7 +607,9 @@ h6 {
     color: var(--color-footer-link);
     text-decoration: none;
 }
-
+.footer .social-icon{
+    font-size: 24px;
+}
 .footer a:hover {
     text-decoration: underline;
 }
