@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
 $(document).ready(function () {
     $('.slick-home-slide').slick({
         infinite: true,
-        slidesToShow: 3,
+        slidesToShow: 4,
         slidesToScroll: 1,
         dots: true,
         speed: 500,
@@ -44,7 +44,7 @@ $(document).ready(function () {
 
      $('.slick-recipes').slick({
         infinite: true,
-        slidesToShow: 5,
+        slidesToShow: 3,
         slidesToScroll: 1,
         dots: true,
         speed: 300,

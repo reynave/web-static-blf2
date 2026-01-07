@@ -2,7 +2,7 @@
 :root {
     --color-brown-dark: #3b1a13;
     --color-brown: #592716;
-    --color-brown-ink: #2b1a04;
+    --color-brown-ink: #c20f2f;
     --color-yellow: #f5d259;
     --color-red: #f1464b;
     --color-white: #ffffff;
@@ -15,11 +15,11 @@
     --color-brown-shadow: rgba(59, 26, 19, 0.15);
     --shadow-header: rgba(0, 0, 0, 0.08);
     --color-border-light: rgba(0, 0, 0, 0.08);
-    --color-banner-bg: #ffc629;
-    --color-banner-text: #b82049;
-    --color-banner-highlight: #ff8a00;
-    --color-banner-button: #00adef;
-    --color-banner-button-text: #ffffff;
+    --color-banner-bg: #f78e21;
+    --color-banner-text: #c20f2f;
+    --color-banner-highlight: #fa4516;
+    --color-banner-button: #26bdec;
+    --color-banner-button-text: #020202;
     --color-banner-button-shadow: rgba(0, 173, 239, 0.35);
     --color-slider-bg: #f8f1e4;
     --color-slider-highlight: #ffe9a6;
@@ -32,6 +32,8 @@
     --color-promo-text: #1d1d1f;
     --color-promo-button: #101010;
     --color-promo-button-text: #ffffff;
+
+     --attachment-gradient: linear-gradient(180deg, #ff8a00 0%, #ffb300 60%, #ffd400 100%);
 }
 
 
