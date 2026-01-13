@@ -14,7 +14,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
+    <link rel="stylesheet" href="assets/style/fonts.css">
 
     <link rel="stylesheet" type="text/css" href="./assets/js/slick-1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="./assets/js/slick-1.8.1/slick/slick-theme.css" />
@@ -26,7 +26,7 @@
 
 </head>
 
-<body>
+<body class="header-margin">
 
     <header class="site-header">
 
@@ -51,37 +51,32 @@
                     <li class="nav-item"><a class="nav-link" href="#about">Tentang Belfoods</a></li>
                     <li class="nav-item"><a class="nav-link" href="#gallery">Foto Galeri</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Toko Online</a></li>
-                </ul>
-                <a class="btn btn-order d-inline-flex align-items-center gap-2 ms-auto" href="#contact">
+                    <li>
+                        <a class="btn btn-order d-inline-flex align-items-center gap-2 ms-auto" href="#contact">
                     ORDER NOW <i class="bi bi-bag-check"></i>
                 </a>
+                    </li>
+                </ul>
+                
             </div>
         </nav>
     </header>
 
-    <section id="home-banner" class="gradient-attachment">
+    <section id="home-banner" class="home-banner">
 
-
-
-        <div class=""
-            style="background: url('./public/banner/1.jpg') top center no-repeat; background-size: cover; height: 90vh;">
-
+        <div >
+            <img src="./public/banner/1.jpg" width="100%" alt="Banner Belfoods">
         </div>
-
-        <div class=""
-            style="background: url('./public/banner/2.jpg') top center no-repeat; background-size: cover; height: 90vh;">
-
+        <div>
+            <img src="./public/banner/2.jpg" width="100%" alt="Banner Belfoods">
         </div>
-
-        <div class=""
-            style="background: url('./public/banner/3.jpg') top center no-repeat; background-size: cover; height: 90vh;">
-
+        <div>
+            <img src="./public/banner/3.jpg" width="100%" alt="Banner Belfoods">
         </div>
-
-        <div class=""
-            style="background: url('./public/banner/4.jpg') top center no-repeat; background-size: cover; height: 90vh;">
-
+        <div>
+            <img src="./public/banner/4.jpg" width="100%" alt="Banner Belfoods">
         </div>
+ 
 
     </section>
 
@@ -90,7 +85,7 @@
         <div class="row">
             <div class="col-12 ">
                 <div class="slider-tabs">
-                    <button class="slider-tab is-active">PRODUCT BELFOODS</button>
+                    <button class="slider-tab is-active">Catalok</button>
                     <button class="slider-tab">BELFOODS</button>
                     <button class="slider-tab">bonanza</button>
                     <button class="slider-tab">Uenaaak</button>
@@ -103,36 +98,26 @@
 
             <div class="col-4 text-center ">
                 <div class="home-slider-featured">
-                    <div class="home-slider-featured-texture">
-                        <img src="./assets/img/spin1.png" width="80%">
-                    </div>
+                     
                     <img width="100%" src="./public/products/BELFOODS_ProductWeb.png" alt="Royal Chicken Nugget">
                 </div>
             </div>
 
             <div class="col-4 text-center ">
-                <div class="home-slider-featured">
-                    <div class="home-slider-featured-texture">
-                        <img src="./assets/img/spin1.png" width="80%">
-                    </div>
+                <div class="home-slider-featured"> 
                     <img width="100%" src="./public/products/BNZ_ProductWeb.png" alt="Royal Chicken Nugget">
                 </div>
             </div>
 
             <div class="col-4 text-center ">
                 <div class="home-slider-featured">
-                    <div class="home-slider-featured-texture">
-                        <img src="./assets/img/spin1.png" width="80%">
-                    </div>
+                    
                     <img width="100%" src="./public/products/UENAAAK_ProductWeb.png" alt="Royal Chicken Nugget">
                 </div>
             </div>
 
             <div class="col-4 text-center ">
-                <div class="home-slider-featured">
-                    <div class="home-slider-featured-texture">
-                        <img src="./assets/img/spin1.png" width="80%">
-                    </div>
+                <div class="home-slider-featured"> 
                     <img width="100%" src="./public/products/ROYAL_ProductWeb.png" alt="Royal Chicken Nugget">
                 </div>
             </div>
@@ -177,7 +162,7 @@
 
             <div class="row slick-recipes">
                 <div class="m-2 ">
-                    <div class="card h-100 shadow-sm border-0 rounded-4" style="background-color: aquamarine;">
+                    <div class="card h-100 shadow-sm border-0 rounded-4" style="background-color: #ffcb3c;">
 
 
 
@@ -186,9 +171,9 @@
                                 alt="Bento Drummies Sushi Rice">
                         </div>
                         <div class="card-body">
-                            <h5 class="mb-1">Fun Recipes</h5>
-                            <h1 class="card-title fw-bold py-3">Bento Drummies Sushi Rice</h1>
-                            <a href="#" class="btn btn-white rounded mt-3">Lihat Resep <i
+                            <h5 class="mb-1">Kreasi Kilat</h5>
+                              <h1 class="card-title fw-bold py-1">Bento Drummies Sushi Rice</h1>
+                            <a href="#" class="btn btn-white rounded mt-1">Lihat Resep <i
                                     class="bi bi-caret-right-square-fill"></i></a>
                         </div>
 
@@ -196,89 +181,89 @@
                 </div>
 
                 <div class="m-2 ">
-                    <div class="card h-100 shadow-sm border-0 rounded-4" style="background-color: rgb(217, 196, 255);">
+                    <div class="card h-100 shadow-sm border-0 rounded-4" style="background-color: #ffe396">
                         <div class="p-3">
                             <img src="./public/kreasi/Caesar Salad Chicken Fillet .jpg" width="100%" class="rounded-4"
                                 alt="Bento Drummies Sushi Rice">
                         </div>
 
                         <div class="card-body">
-                            <h5 class="mb-1">Fun Recipes</h5>
-                            <h1 class="card-title fw-bold py-3">Bento Drummies Sushi Rice</h1>
-                            <a href="#" class="btn btn-white rounded mt-3">Lihat Resep <i
+                            <h5 class="mb-1">Kreasi Kilat</h5>
+                            <h1 class="card-title fw-bold py-1">Bento Drummies Sushi Rice</h1>
+                            <a href="#" class="btn btn-white rounded mt-1">Lihat Resep <i
                                     class="bi bi-caret-right-square-fill"></i></a>
                         </div>
                     </div>
                 </div>
 
                 <div class="m-2 ">
-                    <div class="card h-100 shadow-sm border-0 rounded-4" style="background-color: rgb(255, 208, 127);">
+                    <div class="card h-100 shadow-sm border-0 rounded-4" style="background-color: #ffcb3c">
                         <div class="p-3">
                             <img src="./public/kreasi/Cheezy Bites & Penne.jpg" width="100%" class="rounded-4"
                                 alt="Bento Drummies Sushi Rice">
                         </div>
 
                         <div class="card-body">
-                            <h5 class="mb-1">Fun Recipes</h5>
-                            <h1 class="card-title fw-bold py-3">Bento Drummies Sushi Rice</h1>
-                            <a href="#" class="btn btn-white rounded mt-3">Lihat Resep <i
+                            <h5 class="mb-1">Kreasi Kilat</h5>
+                             <h1 class="card-title fw-bold py-1">Bento Drummies Sushi Rice</h1>
+                            <a href="#" class="btn btn-white rounded mt-1">Lihat Resep <i
                                     class="bi bi-caret-right-square-fill"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="m-2">
-                    <div class="card h-100 shadow-sm border-0 rounded-4" style="background-color: rgb(174, 255, 127);">
-                        <div class="p-3">
-                            <img src="./public/kreasi/Honey Sauce Sausages.jpg" width="100%" class="rounded-4"
-                                alt="Bento Drummies Sushi Rice">
-                        </div>
+               
 
-                        <div class="card-body">
-                            <h5 class="mb-1">Fun Recipes</h5>
-                            <h1 class="card-title fw-bold py-3">Bento Drummies Sushi Rice</h1>
-                            <a href="#" class="btn btn-white rounded mt-3">Lihat Resep <i
-                                    class="bi bi-caret-right-square-fill"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="m-2">
-                    <div class="card h-100 shadow-sm border-0 rounded-4" style="background-color: aquamarine;">
-                        <div class="p-3">
-                            <img src="./public/kreasi/Karage Lemon Sauce.jpg" width="100%" class="rounded-4"
-                                alt="Bento Drummies Sushi Rice">
-                        </div>
-
-                        <div class="card-body">
-                            <h5 class="mb-1">Fun Recipes</h5>
-                            <h1 class="card-title fw-bold py-3">Bento Drummies Sushi Rice</h1>
-                            <a href="#" class="btn btn-white rounded mt-3">Lihat Resep <i
-                                    class="bi bi-caret-right-square-fill"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="m-2">
-                    <div class="card h-100 shadow-sm border-0 rounded-4" style="background-color: rgb(217, 196, 255);">
-                        <div class="p-3">
-                            <img src="./public/kreasi/Mushroom Chicken Sausages Soup.jpg" width="100%" class="rounded-4"
-                                alt="Bento Drummies Sushi Rice">
-                        </div>
-
-                        <div class="card-body">
-                            <h5 class="mb-1">Fun Recipes</h5>
-                            <h1 class="card-title fw-bold py-3">Bento Drummies Sushi Rice</h1>
-                            <a href="#" class="btn btn-white rounded mt-3">Lihat Resep <i
-                                    class="bi bi-caret-right-square-fill"></i></a>
-                        </div>
-                    </div>
-                </div>
+              
+ 
 
             </div>
         </div>
     </section>
 
+     <section id="blog" class="py-5 blog-section bg-1">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">Article Terbaru</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card shadow-lg border-1 rounded-4">
+                        <img src="https://belfoods.com/wp-content/uploads/2013/10/3216594_xl.jpg"
+                            class="card-img-top rounded-top-4" alt="Bento Drummies Sushi Rice">
+                        <div class="card-body pb-3">
+                            <h5 class="mb-1">Mempersiapkan Acara special Tahun baru 2025</h5>
+
+                            <a href="#" class="btn btn-white rounded mt-3">Detail <i
+                                    class="bi bi-caret-right-square-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="card shadow-lg border-1 rounded-4">
+                        <img src="https://belfoods.com/wp-content/uploads/2013/12/image001-624x433.jpg"
+                            class="card-img-top rounded-top-4" alt="Bento Drummies Sushi Rice">
+                        <div class="card-body">
+                            <h5 class="mb-1">Mempersiapkan Acara special Tahun baru 2025</h5>
+                            <a href="#" class="btn btn-white rounded mt-3">Detail <i
+                                    class="bi bi-caret-right-square-fill"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-lg border-1 rounded-4">
+                        <img src="https://belfoods.com/wp-content/uploads/2013/07/Bekal-Berkualitas-Penting-untuk-Keluarga1.jpg"
+                            class="card-img-top rounded-top-4" alt="Bento Drummies Sushi Rice">
+                        <div class="card-body">
+                            <h5 class="mb-1">Mempersiapkan Acara special Tahun baru 2025</h5>
+
+                            <a href="#" class="btn btn-white rounded mt-3">Detail <i
+                                    class="bi bi-caret-right-square-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section id="promo" class="promo-showcase">
         <div class="container">
@@ -290,9 +275,18 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="promo-copy">
-                        <p class="fs-4 fw-semibold">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
-                            consectetur, adipisci velit, sed quia non numquam eius</p>
-                        <p>Kata-kata apa yang perlu di input disini?</p>
+                        <h1 class="VAG-Rounded-Bold color-orange">ONLINE SHOP KAMI</h1>
+                     
+                    <div class="promo-links">
+                        <p>Kunjungi toko online resmi kami — banyak promo menanti!</p>
+                        <ul class="list-unstyled mb-2">
+                            <li><a href="#" class="fw-bold">BliBli</a> — promo eksklusif & penawaran paket</li>
+                            <li><a href="#" class="fw-bold">Shopee</a> — diskon harian & voucher</li>
+                            <li><a href="#" class="fw-bold">Tokopedia</a> — pilih produk dengan gratis ongkir</li>
+                        </ul>
+                        <p class="mb-0"><strong>Gratis ongkir</strong> tersedia di e-commerce tertentu. Cek syarat & ketentuan di masing‑masing platform.</p>
+                        <a href="#contact" class="btn btn-order d-inline-flex align-items-center gap-2 mt-3">ORDER NOW <i class="bi bi-bag-check"></i></a>
+                    </div>
                     </div>
                 </div>
                 <div class="col-12">
@@ -326,49 +320,7 @@
         </div>
     </section>
 
-    <section id="blog" class="py-5 blog-section">
-        <div class="container">
-            <h2 class="text-center fw-bold mb-5">Article Terbaru</h2>
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="card h-100 shadow-sm border-0 rounded-4">
-                        <img src="https://belfoods.com/wp-content/uploads/2013/10/3216594_xl.jpg"
-                            class="card-img-top rounded-top-4" alt="Bento Drummies Sushi Rice">
-                        <div class="card-body">
-                            <h5 class="mb-1">Mempersiapkan Acara special Tahun baru 2025</h5>
-
-                            <a href="#" class="btn btn-white rounded mt-3">Detail <i
-                                    class="bi bi-caret-right-square-fill"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card h-100 shadow-sm border-0 rounded-4">
-                        <img src="https://belfoods.com/wp-content/uploads/2013/12/image001-624x433.jpg"
-                            class="card-img-top rounded-top-4" alt="Bento Drummies Sushi Rice">
-                        <div class="card-body">
-                            <h5 class="mb-1">Mempersiapkan Acara special Tahun baru 2025</h5>
-                            <a href="#" class="btn btn-white rounded mt-3">Detail <i
-                                    class="bi bi-caret-right-square-fill"></i></a>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card h-100 shadow-sm border-0 rounded-4">
-                        <img src="https://belfoods.com/wp-content/uploads/2013/07/Bekal-Berkualitas-Penting-untuk-Keluarga1.jpg"
-                            class="card-img-top rounded-top-4" alt="Bento Drummies Sushi Rice">
-                        <div class="card-body">
-                            <h5 class="mb-1">Mempersiapkan Acara special Tahun baru 2025</h5>
-
-                            <a href="#" class="btn btn-white rounded mt-3">Detail <i
-                                    class="bi bi-caret-right-square-fill"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+   
 
     <section id="social-media" class="social-media-section">
         <div class="container" style="background: url(./public/photos/idmap.png) top center; background-repeat: no-repeat; background-size: contain;">
@@ -381,7 +333,7 @@
                 </div>
                 <div class="col-8 text-start">
                     <h1 >Mencari Contact Sales? </h1>
-                    <button type="button" class="btn btn-lg btn-light px-5">LOKASI SAYA</button>
+                    <button type="button" class="btn btn-lg btn-orange px-5">LOKASI SAYA</button>
                 </div>
 
             
