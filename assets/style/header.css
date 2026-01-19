@@ -4,25 +4,19 @@
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1040;
-
-
-
+    z-index: 1040; 
     padding: 0 2rem;
     padding-top: 0.3rem;
     padding-bottom: 0.5rem;
     box-sizing: border-box;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
-    border-bottom: 2px solid #9c7500;
-    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid #e67403;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
 .site-header {
-    background: #FEC00B;
-    background: -webkit-linear-gradient(0deg, rgba(254, 192, 11, 1) 0%, rgba(248, 144, 33, 1) 76%);
-    background: -moz-linear-gradient(0deg, rgba(254, 192, 11, 1) 0%, rgba(248, 144, 33, 1) 76%);
-    background: linear-gradient(0deg, rgba(254, 192, 11, 1) 0%, rgba(248, 144, 33, 1) 76%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FEC00B", endColorstr="#F89021", GradientType=0);
+    background: #fd8103;
+   
 }
 
 .site-header.is-scrolled {
@@ -43,10 +37,7 @@
 }
 
 .brand-logo .nav-logo {
-    position: absolute;
-    top: -30px;
-    left: 0px;
-    width: 80px;
+   
 }
 
 
@@ -157,7 +148,7 @@
     min-width: 220px;
     padding: 0.5rem 0;
     margin-top: 0.5rem;
-    background-color: #ffc708;
+    background-color: #fd8103;
     border: 3px solid var(--color-border-light);
     border-radius: 12px;
     box-shadow: 0 15px 35px var(--shadow-header);
@@ -193,7 +184,7 @@
 .btn-orange{
     background: #fd8103;
      border-radius: 999px;
-    border: 2px solid #d4a53d;
+    border: 2px solid #fd800376;
     color: #ffffff;
     font-weight: 700;
     padding: 0.4rem 1.5rem;

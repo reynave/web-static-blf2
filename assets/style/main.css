@@ -7,7 +7,7 @@ body {
     margin-top: 4rem;
 }
 .luckiest-guy-regular {
-    font-family: "Luckiest Guy", cursive;
+    font-family: "Luckiest Guy", cursive !important; 
     font-weight: 400;
     font-style: normal;
 }
@@ -42,7 +42,9 @@ h6 {
 .color-orange{
     color: #fd8103;
 }
- 
+ .btn{
+    letter-spacing: 0.8px;
+ }
 
 .banner-sparkle {
     width: 64px;
@@ -161,7 +163,7 @@ h6 {
 }
 
 .home-slider {
-    background: var(--color-slider-bg) url(./../img/sunburst-pattern.png) top center no-repeat;
+    background: #fef1c5 ;
     padding: 0rem 0 4.5rem;
     border-radius: 40px;
     
@@ -196,6 +198,124 @@ h6 {
     justify-content: center;
     gap: 0.75rem;
     margin-bottom: 3rem;
+}
+
+.hero-video {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: #000000;
+}
+
+.hero-video__media {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+}
+
+.hero-video__scrim {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.65) 100%);
+    z-index: -1;
+}
+
+.hero-video__content {
+    position: relative;
+    padding: 6rem 1.5rem;
+    color: #ffffff;
+    text-align: center;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.hero-video__content .btn-orange {
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
+}
+
+.hero-video__cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.hero-video__youtube {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    background: #ff0000;
+    color: #ffffff;
+    font-size: 2rem;
+    text-decoration: none;
+    box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hero-video__youtube:hover {
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+}
+
+.hero-video-modal .modal-dialog {
+    max-width: min(960px, 90vw);
+    margin: auto;
+}
+
+.hero-video-modal .modal-content {
+    background: #000000;
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+}
+
+.hero-video-modal__close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    opacity: 1;
+    z-index: 2;
+}
+
+.hero-video-modal__close:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.hero-video-modal .btn-close {
+    padding: 0;
+    margin: 0;
+}
+
+.hero-video-modal .ratio video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .hero-video {
+        min-height: 70vh;
+    }
+
+    .hero-video__content {
+        padding: 4rem 1.5rem;
+    }
 }
 
 .slider-tab {
@@ -302,11 +422,18 @@ h6 {
 }
 
 .slider-tabs .slider-tab {
-    font-family: 'Luckiest Guy', cursive;
+    font-family: 'VAG-Rounded-Bold';
     font-size: 1.1rem;
     font-weight: lighter;
     letter-spacing: 0.4px;
 
+}
+.slider-tab-label{
+    font-family: 'VAG-Rounded-Bold';
+    padding: 0.55rem 1.35rem; 
+    font-weight: 600;  
+    font-size: 1.5rem;
+      
 }
 
 .home-slider h1 {
@@ -393,7 +520,7 @@ h6 {
 
 .info {
     position: relative;
-    background: #f5f5f6;
+    background: #f2f1ef;
     padding-top: 100px;
     margin-top: -50px 
 }
@@ -433,10 +560,10 @@ h6 {
 }
 
 .social-media-section {
-    background-color: #ffc708;
+    background-color: #fff;
     padding: 6rem 0 8rem 0;
     text-align: center;
-    color: #ffffff;
+    color: #000;
     position: relative;
 }
 
@@ -559,30 +686,33 @@ h6 {
     background: #fdb80f ;
 }
 .blog-section h1 {
-    font-family: 'Luckiest Guy', cursive;
+  font-family: 'VAG-Rounded-Bold';
     font-weight: normal;
     font-style: normal;
     font-size: 1.6rem;
     letter-spacing: 1px;
-    color: #333333;
+    color: #000000;
 }
 
 .blog-section h5 {
-    font-family: 'Luckiest Guy', cursive;
+   font-family: 'VAG-Rounded-Regular';
     font-weight: normal;
     font-style: normal;
     letter-spacing: 1px;
-    color: #333333;
+    color: #000000;
 }
 
-.blog-section .card {
-    background-color: #F8E6CB;
+.blog-section .card { 
+    background-color: #fd8103;
+    color: #fff;
 }
-
+.blog-section h5{
+  color: #fff;
+}
 .btn-white {
-    font-family: 'Luckiest Guy', cursive;
+   font-family: 'VAG-Rounded-Bold';
     background-color: #FFFFFF;
-    color: #333333;
+    color: #000000;
     padding: 0.5rem 1.5rem;
     border-radius: 12px;
     font-weight: 100;
@@ -592,7 +722,7 @@ h6 {
 
 .btn-white:hover {
     background-color: #E0E0E0;
-    color: #333333;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -606,13 +736,14 @@ h6 {
 }
 
 .footer {
-    background-color: var(--color-footer-bg);
-    color: var(--color-footer-text);
+    font-family: 'VAG-Rounded-Regular';
+    background-color: #fd8103;
+    color: #fff;
     padding: 2rem 0;
 }
 
 .footer a {
-    color: var(--color-footer-link);
+    color: #fff;
     text-decoration: none;
 }
 .footer .social-icon{
@@ -621,6 +752,7 @@ h6 {
 .footer a:hover {
     text-decoration: underline;
 }
+
 
 @media (max-width: 991.98px) {
     body {
