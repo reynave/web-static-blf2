@@ -51,4 +51,14 @@ $(document).ready(function () {
                autoplay : true,
         pauseOnHover:false,
     });
+
+     $('.slick-4-1').slick({
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        dots: true,
+        speed: 300,
+               autoplay : true,
+        pauseOnHover:false,
+    });
 });

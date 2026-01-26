@@ -1,6 +1,6 @@
 /* Custom styles for the demo homepage */
 body {
-
+    font-family: 'vag-rounded-regular';
     /* padding-top: 160px; */
 }
 .header-margin {
@@ -30,7 +30,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "League Spartan", sans-serif;
+    font-family: 'VAG-Rounded-Bold';
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -882,8 +882,106 @@ h6 {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.font-5rem{
+    font-size: 5rem;
+}
 
-
-.slick-dots { 
+.home-banner .slick-dots { 
     margin-bottom: 40px;
+}
+.bg-light-gold{
+    background: #fef1c5;
+}
+.wrapper{ 
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.wrapper-sm{ 
+    margin: 0 auto;
+    max-width: 720px;
+}
+.banner-product-detail{
+    padding: 6.5rem 0;
+ 
+}
+
+.banner-product-detail h1{
+    font-family: "Luckiest Guy", cursive !important;  
+    font-size: 6rem;
+    letter-spacing: 0.4px;
+    line-height: 100%;
+}
+
+.banner-product-detail h2{
+    font-family: 'vag-rounded-bold'; 
+    font-size: 3rem;
+    letter-spacing: 0.4px;
+}
+.banner-product-detail h3{
+    font-family: 'vag-rounded-bold'; 
+    
+}
+.banner-product-detail p{
+    font-family: 'vag-rounded-regular'; 
+    font-size: 1.3rem;
+    line-height: 135%; 
+}
+
+.accordion .accordion-item{
+    border: none !important;
+    margin-bottom: 1rem;
+}
+ 
+.accordion-header .accordion-button{
+     background-color: #fbf3ec;
+     border: 3px solid #fd80031d;
+    font-family: 'vag-rounded-bold'; 
+    font-size: 1.5rem;
+    letter-spacing: 0.4px;
+        border-radius: 12px !important;
+}
+.accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: #fd8103;
+    box-shadow: none;
+    font-family: 'vag-rounded-bold'; 
+}
+.accordion-body{
+    font-family: 'vag-rounded-regular';
+}
+.accordion-body table { 
+    width: 100%;
+    border-collapse: collapse; 
+}
+.accordion-body th{ 
+    font-family: 'vag-rounded-bold'; 
+    font-size: 1.2rem; 
+    text-align: left;
+}
+ .accordion-body td {
+    border-bottom: 1px solid #fd8103; 
+    text-align: left;
+    padding: 0px 10px;
+    font-family: 'vag-rounded-regular'; 
+}
+
+
+.product-list-menu{
+    font-family: 'vag-rounded-bold';
+    font-size: 1.2rem;
+    letter-spacing: 0.4px;
+}
+.product-list-menu a{
+    color: #c20f2f;
+    font-size: 2rem;
+    background: #fbf3ec; 
+    text-decoration: none;
+}
+.product-list-menu a:hover{
+    color: #ffffff;
+    background: #fd8103;
+}
+.product-list-menu a.active{
+    color: #ffffff;
+    background: #fd8103;
 }
