@@ -437,7 +437,7 @@ h6 {
 }
 
 .home-slider h1 {
-    font-family: 'Luckiest Guy', cursive;
+      font-family: 'VAG-Rounded-Bold';
     font-weight: lighter;
     font-size: 2rem;
     letter-spacing: 0.4px;
@@ -618,7 +618,7 @@ h6 {
 }
 
 .text-orange {
-    color: #e65300;
+    color: #fd8103;
 }
 
 .promo-showcase {
@@ -881,4 +881,9 @@ h6 {
     background-color: #ff8a00; /* fallback */
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+
+.slick-dots { 
+    margin-bottom: 40px;
 }
