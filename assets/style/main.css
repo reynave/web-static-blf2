@@ -985,3 +985,23 @@ h6 {
     color: #ffffff;
     background: #fd8103;
 }
+
+.kreasi-kilat{
+    position: relative;
+    padding: 3rem 0; 
+}
+ 
+.kreasi-kilat .kreasi-kilat-icon{
+    position: absolute;
+    width: 550px;
+ 
+    bottom:50px;
+    left:1%; 
+}
+ .slick-dotted.slick-slider {
+    margin-bottom: 0px;
+}
+
+.bg-dark{
+    background: #000 !important;
+}
